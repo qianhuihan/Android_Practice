@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="个人信息">
+        <EditTextPreference android:dialogTitle="请输入您的名字"
+            android:key="name"
+            android:singleLine="true"
+            android:summary="设置您的姓名"
+            android:title="姓名" />
+        <ListPreference android:dialogTitle="请选择您的性别"
+            android:key="sex"
+            android:entries="@array/sex_name"
+            android:entryValues="@array/sex_value"
+            android:summary="选择您的性别"
+            android:title="性别" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="个性化">
+        <CheckBoxPreference android:defaultValue="false"
+            android:key="message"
+            android:summaryOff="关闭"
+            android:summaryOn="打开"
+            android:title="推送" />
+        <SwitchPreference android:defaultValue="false"
+            android:key="autoRun"
+            android:summaryOff="关"
+            android:summaryOn="开"
+            android:title="自启动" />
+        <SwitchPreference android:defaultValue="false"
+            android:key="autoLight"
+            android:summaryOff="已关闭屏幕亮度自动调节功能"
+            android:summaryOn="根据环境情况自动调节屏幕亮度"
+            android:title="自动调节屏幕亮度" />
+    </PreferenceCategory>
+</PreferenceScreen>

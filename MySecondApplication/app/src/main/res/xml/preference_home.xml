@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <header android:fragment="com.example.mysecondapplication.MyPreferenceActivity$MyFirstPrefFragment"
+        android:summary="请点击进行个人设置"
+        android:title="个人设置" />
+
+    <header
+        android:summary="进入百度进行搜索"
+        android:title="百度一下">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://m.baidu.com/" />
+    </header>
+
+    <header
+        android:summary="进入爱奇艺看视频"
+        android:title="爱奇艺">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://m.iqiyi.com/" />
+    </header>
+
+    <header
+        android:summary="进入慕课进行学习"
+        android:title="慕课">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://www.icourse163.org/" />
+    </header>
+
+    <header
+        android:summary="进入有道翻译一下"
+        android:title="有道词典">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://m.youdao.com/" />
+    </header>
+
+    <header
+        android:summary="进入浙江大学官网"
+        android:title="浙江大学">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="www.zju.edu.cn/mainm.htm" />
+    </header>
+
+
+</preference-headers>
