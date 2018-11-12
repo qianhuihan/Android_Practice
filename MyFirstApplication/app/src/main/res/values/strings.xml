@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="myButton">点我一下</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/layout03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/provinceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省        份:"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/provinceText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="请选择省份..."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ListView android:id="@+id/provinceView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+        </ListView>
+
+        <TextView
+            android:id="@+id/addressLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="具体地址:"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="请填写具体地址..."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/layout02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓        名:"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/realName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:id="@+id/sexLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性        别:"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <RadioGroup android:id="@+id/sexRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp">
+
+            <RadioButton android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男" >
+            </RadioButton>
+
+            <RadioButton android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女" >
+            </RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/bloodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="血        型:"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <Spinner android:id="@+id/bloodType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+        </Spinner>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
