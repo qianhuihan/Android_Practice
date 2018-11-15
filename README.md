@@ -17,3 +17,9 @@
 - 包含多个Activity，并至少使用TabActivity、PreferenceActivity、ListActivity、LauncherActivity、ExpandableListActivity中的两种。-
 - 该应用要包含菜单、对话框、Toast消息提醒。
 - 向该应用中添加事件处理代码。
+
+### MyThirdApplication——Android第三次实践
+使用Fragment、Intent和各种资源。
+
+### MyForthApplication——Android第四次实践
+使用各种资源，并实现几种绘图和动画效果。
