@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myforthapplication.MainActivity">
+    <ImageButton
+        android:id="@+id/voice_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"/>
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:background="@color/btn_background"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/play" />
+    <Button
+        android:id="@+id/btn_draw"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="650px"
+        android:background="@color/btn_background"
+        android:textColor="@color/text_color"
+        android:layout_alignLeft="@id/btn_play"
+        android:gravity="center"
+        android:text="@string/draw" />
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="350px"
+        android:background="@color/btn_background"
+        android:textColor="@color/text_color"
+        android:layout_alignLeft="@id/btn_play"
+        android:gravity="center"
+        android:text="@string/change" />
+</RelativeLayout>

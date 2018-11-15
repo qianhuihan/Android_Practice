@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyForthApplication</string>
+    <string name="play">开始弹球游戏</string>
+    <string name="draw">开始画图</string>
+    <string name="change">图形变换</string>
+    <string name="zoom">缩放图片</string>
+    <string name="round">圆角图片</string>
+    <string name="reflect">倒影图片</string>
+</resources>
