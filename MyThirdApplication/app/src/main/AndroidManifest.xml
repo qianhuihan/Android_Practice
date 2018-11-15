@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mythirdapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity
+            android:name=".ImplicitActionActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="app.action.test"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImplicitCategoryActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="app.action.test2"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="categoryTest"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImplicitDataActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="app.action.test3"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" android:host="com.example.mythirdapplication"></data>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
