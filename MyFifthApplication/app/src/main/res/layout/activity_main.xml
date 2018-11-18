@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="50px"
+        android:textSize="50px"
+        android:layout_gravity="center"
+        android:text="班级学生信息管理系统" />
+    <Button
+        android:id="@+id/show_all_students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginTop="20px"
+        android:text="查看所有学生信息" />
+    <Button
+        android:id="@+id/stu_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginTop="20px"
+        android:text="根据学生ID管理学生信息" />
+    <Button
+        android:id="@+id/add_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginTop="20px"
+        android:text="新增新的学生信息" />
+</LinearLayout>
