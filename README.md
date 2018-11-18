@@ -23,3 +23,10 @@
 
 ### MyForthApplication——Android第四次实践
 使用各种资源，并实现几种绘图和动画效果。
+
+### MyFifthApplication——Android第五次实践
+建立SQLite数据库，并建立表，向表内添加一些数据。并能够实现对数据库的增删改查。
+
+### MySixthApplication——Android第六次实践
+- 输入两个整数，输出较大的整数；添加一个Activity，与该Service绑定，并能够调用该Service中的compare函数，显示输出结果。
+- 实现基于Socket编程实现一个简易网络聊天室应用（包括服务器端和Android客户端）。
